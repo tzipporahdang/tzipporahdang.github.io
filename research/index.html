@@ -128,26 +128,86 @@
 
 
   <main class="content container">
-  <div class="post">
-  <h1>Research</h1>
+
+ </head>
+<body>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+h1 {
+  text-align: center;
+}
+
+</style>
+
+
+<h1>Featured Projects</h1>
+
+<div class="row">
+  <div class="column">
+    <img src="Lot_Planner.jpeg" alt="Lot Planner" style="width:60%">
+    <h3>Academic Planner Usability Study</h3>
+    <p>Quantitative & Qualitative Survey / Interview</p>
+  </div>
+  <div class="column">
+    <img src="Solomon.jpg" alt="Solomon" style="width:60%">
+    <h3>Non-profit Dog Rescue Outcomes</h3>
+    <p>Data Analysis & Visualization</p>
+  </div>
+</div>
+
+<h1>Selected Academic Research</h1>
 
 <p>We constantly form impressions of others based on available information, such as social categories from physical cues (e.g., attractiveness, race, age). Regardless of accuracy, the use of social categories is essential for social cognition because it is efficient and is often the only type of information we have. However, we can make increasingly individuated impressions if we have access to personal information (e.g., specific behaviors, preferences).</p>
 
 <p>For example, when meeting someone for the first time we have assumptions about them insofar as we can determine what social groups they belong to based on their appearance. In contrast, within our social networks we can form impressions and evaluations based on individuating information. If you have a conversation with a stranger, they may reveal personal information that you would not have assumed from their appearance.</p>
 
 <p>My overarching research program explores how we evaluate others based on both perceptual cues and individuating information.</p>
-    
-    <h3>Learning faces varying in race and person-knowledge</h3>
-<p>My primary line of research investigates our memory for and impressions of people who vary in race and valence of paired person-knowledge. By experimentally manipulating person-knowledge for previously novel faces, we are able to control for both the valence of information and the perceptual familiarity of faces. As we encounter people of different races in our daily interactions, we may encode and remember them differently in terms of speed and accuracy than someone of our own race. Therefore, we aim to examine learning rates over multiple exposures and neural activity after learning.</p>
 
-    <h3>Observing interracial police officer-civilian interactions</h3>
-<p>The public is increasingly exposed to video recordings of police officer-civilian interactions. Even with video footage, people can be divided in their reactions and interpretations. In this line of research, we aim to understand some of the individual differences that lead to these divergent judgments and the emotional and neural correlates of observing these interactions.</p>
-
-    <h3>Neural correlates of evaluations of novel and familiar others</h3>
-<img src="/images/AM_PLS.jpg" alt="PLS" style="float:right" width="223" height="186"/>
-<p>Do we access available person-knowledge even when it is unnecessary for the judgment at hand, such as judgments of attractiveness? We found that while the ventromedial prefrontal cortex was sensitive to just the availability of person-knowledge, it was particularly sensitive to the use of positive person-knowledge.</p>
-
+<div class="row">
+  <div class="column">
+    <a href="https://www.google.com">
+    <img src="PeopleQs.jpeg" alt="Group of people with question marks covering their faces" style="width:60%">
+    <h3>Learning about Others Varying in Race and Familiarity</h3>
+    <p>Experimental / Longitudinal / Ratings / Coding </p>
+  </div>
+  <div class="column">
+    <a href="https://www.yahoo.com">
+    <img src="Cops.png" alt="Blurred photo of a police officer and civilian" style="width:60%">
+    <h3>Observing Police Officer-Civilian Interactions</h3>
+    <p>Experimental / Quantitative / Ratings / fMRI</p>
+  </div>
+  <div class="column">
+    <img src="AM_PLS.png" alt="Brain" style="width:60%">
+    <h3>Neural Correlates of Novel and Familiar Others</h3>
+    <p>Experimental / Quantitative / fMRI / Survey</p>
+  </div>
 </div>
+
+</body>
 
 
   </main>
